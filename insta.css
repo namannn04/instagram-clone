@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+
+.full{
+    display: flex;
+}
+
+.nav{
+    color: white;
+    height: 100vh;
+    width: 245px;
+    border-right: 1px rgb(48, 44, 44) solid;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+.nav h2{
+    margin-left: 26px;
+    margin-top: 36px;
+}
+
+.opt{
+    margin-top: 55px;
+
+}
+
+.opt li{
+    list-style-type: none;
+    height: 45px;
+    padding-left: 23px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.opt li i{
+    position: relative;
+    top: 10px;
+}
+
+.opt li a{
+    position: relative;
+    top: 10px;
+}
+
+.page{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.reel{
+    height: 50%;
+    width: 10%;
+    position: relative;
+    top: 10px;
+}
+
+.profile{
+    height: 40%;
+    width: 10%;
+    border-radius: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.opt li:hover{
+    background: rgb(49, 49, 49);
+    border-radius: 7px;
+    width: 210px;
+}
+
+.menu{
+    position: relative;
+    bottom: -90px;
+}
+
+.middle{
+    position: relative;
+    left: 245px;
+}
+
+.story{
+    display: flex;
+}
+
+.story img{
+    border-radius: 50px;
+    height: 65px;
+    width: 70px;
+    position: relative;
+    left: 110px;
+    top: 25px;
+    margin-right: 15px;
+}
+
+.story img,p:hover{
+    cursor: pointer;
+}
+
+.user{
+    color: white;
+    position: relative;
+    left: 118px;
+    top: 25px;
+    font-size: 13px;
+}
+
+.feed{
+    margin-left: 180px;
+    margin-top: 35px;
+}
+
+.post{
+    height: 585px;
+    width: 468px;
+    border: 0.7px solid white;
+    border-radius: 5px 5px;
+}
+
+.post_head{
+    display: flex;
+}
+
+.post_name{
+    color: white;
+}
+
+.post_profile{
+    height: 7%;
+    width: 7%;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.comment{
+    margin-right: 18px;
+    font-size: 23px;
+    margin-top: 8px;
+}
+
+.save{
+    font-size: 23px;
+    margin-top: 8px;
+    margin-left: 314px;
+}
+
+.count{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    width: 468px;
+}
+
+.line{
+    border: 0.1px solid rgb(192, 183, 183);
+    width: 468px;
+}
+
+.side{
+    position: relative;
+    left: 415px;
+    height: 100vh;
+    width: 400px;
+}
+
+.up{
+    display: flex;
+}
+
+.profile2{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 35px;
+}
+
+.username{
+    color: white;
+    font-size: 14px;
+    margin-top: 38px;
+    margin-left: 13px;
+    line-height: 20px;
+}
+
+.switch{
+    color: rgb(52, 126, 255);
+    margin-top: 45px;
+    margin-left: 110px;
+}
+
+.you{
+    color: rgb(157, 155, 152);
+    margin-top: 30px;
+}
+
+.mid{
+    display: flex;
+}
+
+.see{
+    margin-left: 115px;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.sugg{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.sug{
+    margin-bottom: 10px;
+    margin-left: -42px;
+    color: white;
+    display: flex;
+}
+
+.usernames{
+    margin-left: 10px;
+}
+
+.follow li{
+    color: rgb(52, 126, 255);
+}
